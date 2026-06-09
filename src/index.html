@@ -22,9 +22,9 @@
 <nav class="nav-menu">
     <ul>
       <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Work</a></li>
-      <li><a href="#">Services</a></li>
+      <li><a href="./pages/">About</a></li>
+      <li><a href="./pages/work.html">Work</a></li>
+      <li><a href="./pages/services.html">Services</a></li>
     </ul>
   </nav>
 
@@ -41,9 +41,9 @@
   </button>
 </div>
 
-  <button class="talk-btn">
+  <a href="./pages/contact.html" class="talk-btn">
     Let's talk
-  </button>
+  </a>
 
   
   <button class="burger" id="burger">
@@ -55,18 +55,23 @@
 
 
 
+
+
+
 <!-- Hero Section -->
 
 <main class="hero">
 
   <div class="hero-image">
-    <img src="./src/assets/img/2575947.jpg" alt="Statue">
+    <img src="./assets/img/hero-image.png" alt="Statue">
+    <div class="hex-shape"></div>
   </div>
+
 
   <div class="hero-content">
 
     <h1>
-      ANASTASIJA’S<br>
+      ANASTASIJA PAUNOSKA<br>
       STUDIO.
     </h1>
 
@@ -79,32 +84,196 @@
 
   </div>
 
-
-
   
 
 </main>
 
- <footer class="footer">
-    <div class="footer-links">
-      <a href="./index.html">Home</a>
-      <a href="./pages/work.html">Work</a>
-      <a href="./pages/services.html">Services</a>
-      <a href="./pages/contact.html">Contact</a>
+
+<!-- About Section (white background) -->
+<section class="about-section">
+  <div class="about-container">
+    <h2>About Us</h2>
+    <p>
+      Anastasija’s Studio is a bold, unique design studio based in Macedonia.
+      We help you leave your competitors in the dust and make them lose sleep
+      out of amazement. We bring bold, creative ideas to life in projects that
+      always amaze and exceed expectations.
+    </p>
+
+    <div class="tools">
+      <div class="tool-card">
+        <img src="./assets/img/Figma-logo.png" alt="Figma">
+      </div>
+      <div class="tool-card">
+        <img src="./assets/img/w-logo.png" alt="WordPress">
+      </div>
+      <div class="tool-card">
+        <img src="./assets/img/Css-logo.png" alt="CSS">
+      </div>
+      <div class="tool-card">
+        <img src="./assets/img/js-logo.png" alt="JavaScript">
+      </div>
+      <div class="tool-card">
+        <img src="./assets/img/ps-logo.png" alt="Adobe Photoshop">
+      </div>
+      <div class="tool-card">
+        <img src="./assets/img/ai-logo.png" alt="Adobe Illustrator">
+      </div>
     </div>
-    <div class="footer-info">
-      <p>Mail: anastasija.studio@gmail.com</p>
-      <p>Follow us: Instagram | Facebook | LinkedIn</p>
+  </div>
+</section>
+
+
+
+  <!-- About Section-2 -->
+<section class="about">
+  <h2>What The User Gets?</h2>
+  <div class="features">
+    <div class="feature-card">Instant Access Anywhere</div>
+    <div class="feature-card">Offline Freedom</div>
+    <div class="feature-card">Curated Simplicity</div>
+    <div class="feature-card">Immersive Experience</div>
+  </div>
+</section>
+
+
+
+<!-- Projects Showcase -->
+<section class="projects">
+  <h2>Featured Projects</h2>
+  <div class="projects-grid" id="projectsGrid">
+    <!-- Initial 4 cards -->
+    <div class="project-card">
+      <img src="./assets/img/pages-img/single-page-movie-streaming.png" alt="Sherlock Holmes">
+      <h3>Sherlock Holmes (1954)</h3>
+      <div class="project-bottom">
+        <p>Watch the timeless detective classic that inspired generations.</p>
+        <button class="see-more">See More</button>
+      </div>
     </div>
-    <div class="footer-brand">
-      <h2>ANASTASIJA’S STUDIO.</h2>
+
+    <div class="project-card">
+      <img src="./assets/img/pages-img/hero-mobile-app.png" alt="Custom Gym Workout Plan">
+      <h3>Custom Gym Workout Plan</h3>
+      <div class="project-bottom">
+        <p>Tailored fitness app design for different age groups.</p>
+        <button class="see-more">See More</button>
+      </div>
     </div>
-  </footer>
+
+    <div class="project-card">
+      <img src="./assets/img/pages-img/hero-beauty-journal-website.png" alt="Beauty & Skin Care">
+      <h3>Beauty & Skin Care</h3>
+      <div class="project-bottom">
+        <p>Elegant web design for beauty and lifestyle brands.</p>
+        <button class="see-more">See More</button>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <img src="./assets/img/pages-img/hero-space-app.png" alt="Space & Astronomy">
+      <h3>Space & Astronomy</h3>
+      <div class="project-bottom">
+        <p>Explore the wonders of the universe with a mobile app.</p>
+        <button class="see-more">See More</button>
+      </div>
+    </div>
+
+    <!-- Hidden extra cards -->
+    <div class="project-card hidden">
+      <img src="./src/assets/img/fitness.jpg" alt="Fitness Mobile App">
+      <h3>Fitness Mobile App</h3>
+      <div class="project-bottom">
+        <p>Build your perfect body with custom workout plans.</p>
+        <button class="see-more">See More</button>
+      </div>
+    </div>
+
+    <div class="project-card hidden">
+      <img src="./assets/img/pages-img/hero-job-searching-website.png" alt="Work Searching App">
+      <h3>Work Searching App</h3>
+      <div class="project-bottom">
+        <p>The job platform on your side.</p>
+        <button class="see-more">See More</button>
+      </div>
+    </div>
+
+    <div class="project-card hidden">
+      <img src="./src/assets/img/poster.jpg" alt="Adobe Illustrator Poster">
+      <h3>Adobe Illustrator Poster</h3>
+      <div class="project-bottom">
+        <p>Creative poster project showcasing bold design.</p>
+        <button class="see-more">See More</button>
+      </div>
+    </div>
+
+    <div class="project-card hidden">
+      <img src="./src/assets/img/marketing.jpg" alt="Marketing Design Project">
+      <h3>Marketing Design Project</h3>
+      <div class="project-bottom">
+        <p>Professional branding and marketing visuals.</p>
+        <button class="see-more">See More</button>
+      </div>
+    </div>
+  </div>
+
+  <button id="loadMoreBtn" class="talk-btn">Load More</button>
+</section>
+
+
+<!-- Unlimited Stories CTA -->
+<section class="cta">
+  <h2>Unlimited Stories. One Stream.</h2>
+  <p>Watch the latest blockbusters, timeless classics, and exclusive originals – anytime, anywhere.</p>
+  <button class="talk-btn">Get Started</button>
+</section>
+
+
+<!-- Next Project Teaser -->
+<section class="next-project">
+  <h2>Next Project</h2>
+  <p>Custom Gym Workout Plan</p>
+  <p>Movie Streaming - Mobile app UX/UI design 2022</p>
+</section>
+
+
 
 
 
 
 </div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-left">
+      <nav class="footer-nav">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+      </nav>
+      <p class="footer-mail">
+        Mail: <a href="mailto:anastasija.sokar@gmail.com">anastasija.sokar@gmail.com</a>
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <p>Let’s connect:</p>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <h2>ANASTASIJA’S STUDIO</h2>
+  </div>
+</footer>
+
+
 
    
     <script type="module" src="./JS/main.js"></script>

@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio | Work</title>
+  <link rel="stylesheet" href="../CSS/style.css" />
 </head>
 <body>
 <div class="container">
@@ -28,16 +29,109 @@
   <!-- Work Section -->
   <main class="work">
     <h1>All Projects</h1>
-    <div class="projects-grid">
-      <div class="project-card">Work Searching App</div>
-      <div class="project-card">Movie Streaming Design</div>
-      <div class="project-card">Beauty & Skin Care</div>
-      <div class="project-card">Space & Astronomy</div>
-      <div class="project-card">Fitness Mobile App</div>
+    <div class="projects-grid" id="workGrid">
+      <!-- Example card -->
+      <div class="project-card">
+        <img src="../src/assets/img/job.jpg" alt="Work Searching App">
+        <h3>Work Searching App</h3>
+        <div class="project-bottom">
+          <p>The job platform on your side. Need a job!</p>
+          <button class="see-more">See More</button>
+        </div>
+      </div>
+
+      <!-- Repeat same structure for all other cards -->
+      <div class="project-card">
+        <img src="../assets/img/pages-img/hero-movie-website.png" alt="Movie Streaming">
+        <h3>Movie Streaming</h3>
+        <div class="project-bottom">
+          <p>Sherlock Holmes (1954) streaming interface design.</p>
+          <button class="see-more">See More</button>
+        </div>
+      </div>
+
+            <!-- Repeat same structure for all other cards -->
+      <div class="project-card">
+        <img src="../src/assets/img/movie.jpg" alt="Movie Streaming">
+        <h3>Movie Streaming</h3>
+        <div class="project-bottom">
+          <p>Sherlock Holmes (1954) streaming interface design.</p>
+          <button class="see-more">See More</button>
+        </div>
+      </div>
+
+            <!-- Repeat same structure for all other cards -->
+      <div class="project-card">
+        <img src="../src/assets/img/movie.jpg" alt="Movie Streaming">
+        <h3>Movie Streaming</h3>
+        <div class="project-bottom">
+          <p>Sherlock Holmes (1954) streaming interface design.</p>
+          <button class="see-more">See More</button>
+        </div>
+      </div>
+
+            <!-- Repeat same structure for all other cards -->
+      <div class="project-card">
+        <img src="../src/assets/img/movie.jpg" alt="Movie Streaming">
+        <h3>Movie Streaming</h3>
+        <div class="project-bottom">
+          <p>Sherlock Holmes (1954) streaming interface design.</p>
+          <button class="see-more">See More</button>
+        </div>
+      </div>
+
+      <!-- ... continue for all cards ... -->
+
+      <!-- Hidden extra cards -->
+      <div class="project-card hidden">
+        <img src="../src/assets/img/branding.jpg" alt="Branding & Identity">
+        <h3>Branding & Identity</h3>
+        <div class="project-bottom">
+          <p>Logo design and brand guidelines.</p>
+          <button class="see-more">See More</button>
+        </div>
+      </div>
     </div>
+
+    <button id="showMoreBtn" class="talk-btn">Show More</button>
   </main>
 
+
+  
+
 </div>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-left">
+      <nav class="footer-nav">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./work.html">Work</a>
+        <a href="./services.html">Services</a>
+      </nav>
+      <p class="footer-mail">
+        Mail: <a href="mailto:anastasija.sokar@gmail.com">anastasija.sokar@gmail.com</a>
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <p>Let’s connect:</p>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <h2>ANASTASIJA’S STUDIO</h2>
+  </div>
+</footer>
+
 <script type="module" src="../JS/main.js"></script>
 </body>
 </html>
